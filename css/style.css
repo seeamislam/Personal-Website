@@ -34,7 +34,7 @@ h1 {
 }
 
 h2 {
-  font-size: 42px;
+  font-size: 32px;
   line-height: 52px;
   margin-top: 0px;
 }
@@ -218,6 +218,113 @@ footer {
   height: 100vh;
   padding: 0 45px 0 45px;
 }
+
+
+
+/*Project Cards */
+
+.project__wrapper {
+      animation: 0.8s ease-in-out 0s 1 slideInFromBottom;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .project__wrapper a{
+      text-decoration: none;
+    }
+    
+
+    .project {
+      display: flex;
+      height: 327px;
+      width: 800px; /* if the image size messes up this used to be 747px */
+      margin: 50px auto;
+      border-radius: 7px 7px 7px 7px;
+      transition: 0.4s;
+      -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+      -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+      box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+    }
+
+    .project:hover, .project:focus, .project:active {
+      transform: scale(1.08);
+      transform: translateY(-3%);
+      box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.25);
+    }
+
+    .project-img {
+      display: flex;
+      float: left;
+      height: 327px;
+      width: 320px;
+    }
+
+    .project-img img {
+      border-radius: 7px 0 0 7px;
+      object-fit: cover;
+    }
+
+    .project-info {
+      float: left;
+      height: 327px;
+      width: 400px;
+      border-radius: 0 7px 10px 7px;
+      background-color: #ffffff;
+    }
+
+    .project-text {
+      height: 300px;
+      width: 327px;
+    }
+
+    .project-text:a {
+      text-decoration: none;
+    }
+
+    .project-text h1 {
+      margin: 0 0 0 38px;
+      padding-top: 52px;
+      font-size: 34px;
+      color: #474747;
+      font-weight: 300;
+      line-height: 1.5em;
+    }
+
+    .project-text h1,
+    .project-price-btn p {
+      font-family: 'Source Sans Pro', sans-serif;
+    }
+
+    .project-text h2 {
+      margin: 0 0 10px 38px;
+      font-size: 13px;
+      line-height: 3em;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-weight: 400;
+      color: #666666;
+      letter-spacing: 0.2em;
+    }
+
+      .project-text h3 {
+      margin: 0 0 7px 38px;
+      font-size: 13px;
+      line-height: 2em;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-weight: 400;
+      color: #666666;
+      letter-spacing: 0.2em;
+    }
+
+    .project-text p {
+      height: 125px;
+      padding-top: -3em;
+      margin: 0 0 0 38px;
+      font-family: 'Source Sans Pro', sans-serif;
+      color: #000000;
+      font-size: 15px;
+      font-weight: lighter;
+    }
 
 
 
