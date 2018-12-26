@@ -163,6 +163,13 @@ footer {
     left: 0;
 }
 
+
+.icons {
+  font-size: 32px;
+  color: #CCCCCC;
+  padding-left: 1em;
+
+}
 .color-white {
   color: #ffffff;
 }
