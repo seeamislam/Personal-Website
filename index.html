@@ -83,13 +83,19 @@
      </div>
 </section>
 
-<!-- Redirecting seeamislam.github.io -->
-<script> 
-
-  if (window.location.href==="https://seeamislam.github.io") {
-    window.location.href = "https://seeamislam.com"; 
-  }
-
+<!-- Firebase -->
+<script src="https://www.gstatic.com/firebasejs/5.7.2/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCF7YvwAqxHU6s35bgG0KFrOehPYbDHJZc",
+    authDomain: "personal-website-7f291.firebaseapp.com",
+    databaseURL: "https://personal-website-7f291.firebaseio.com",
+    projectId: "personal-website-7f291",
+    storageBucket: "personal-website-7f291.appspot.com",
+    messagingSenderId: "873479785896"
+  };
+  firebase.initializeApp(config);
 </script>
 
 <!-- SCRIPTS -->
