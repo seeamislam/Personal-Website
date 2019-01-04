@@ -85,13 +85,14 @@ p {
   border: 2px solid #232B2B;
   border-radius: 80px;
   color: #232B2B;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: bold;
   letter-spacing: 3px;
   padding: 12px 36px;
   margin-top: 15px;
   transition: all 0.4s ease-in-out;
   text-transform: uppercase;
+  width: 100px;
 }
 
 .section-btn:hover {
@@ -340,7 +341,22 @@ footer {
    Mobile Responsive         
 -----------------------------------------*/
 
+
 @media only screen and (max-width: 580px) {
+
+      .portfolio__container {
+      max-width: 80%;
+      margin: 50px auto; }
+      @media screen and (min-width: 61.875em) {
+        .portfolio__container {
+          max-width: 1000px;
+          margin: 150px auto; } 
+      }
+      @media screen and (min-width: 46.875em) and (max-width: 60.8125em) {
+        .portfolio__container {
+          max-width: 750px;
+          margin: 150px auto; } 
+      }
   h1 {
     font-size: 32px;
   }
@@ -353,6 +369,11 @@ footer {
   h3 {
     font-size: 22px;
     line-height: inherit;
+  }
+
+  .a{
+    position: relative;
+
   }
 }
 
@@ -369,7 +390,7 @@ footer {
 
   #home .container,
   #about .container, 
-  #experience .container,
+  #portfolio .container,
   #service .container,
   #education .container,
   #contact .container {
@@ -378,7 +399,7 @@ footer {
   }
 
   #about .col-md-3,
-  #experience .col-md-6,
+  #portfolio .col-md-6,
   #education .col-md-6,
   #contact .col-md-3 {
     padding: 0;
