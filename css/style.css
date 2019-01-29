@@ -13,6 +13,28 @@ html,body {
   height: 100%;
 }
 
+.container {
+  position: relative;
+}
+.bottomright {
+  position: absolute;
+  bottom: 36px;
+  right: 36px;
+}
+
+.bottomleft {
+  position: absolute;
+  bottom: 4px;
+  left: 36px;
+}
+
+.bottomright2 {
+  position: absolute;
+  bottom: 4px;
+  right: 36px;
+}
+
+}
 
 /*---------------------------------------
     Body            
@@ -107,7 +129,7 @@ p {
   border: 1px solid #232B2B;
   border-radius: 30px;
   color: #232B2B;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: regular;
   letter-spacing: 2px;
   padding: 12px 36px;
