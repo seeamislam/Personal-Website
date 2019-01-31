@@ -334,7 +334,7 @@ footer {
       display: flex;
       float: left;
       height: 327px;
-      width: 320px;
+      width: 400px;
     }
 
     .project-img img {
@@ -345,14 +345,14 @@ footer {
     .project-info {
       float: left;
       height: 327px;
-      width: 400px;
+      width:400px;
       border-radius: 0 7px 10px 7px;
       background-color: #ffffff;
     }
 
     .project-text {
       height: 300px;
-      width: 327px;
+      width: 350px;
     }
 
     .project-text:a {
