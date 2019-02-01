@@ -412,6 +412,34 @@ footer {
    color: white;
   }
 
+  blue {
+    background-color: #81d4fa;
+       padding-top: -16px;
+   padding-bottom: -16px;
+   padding: 6px;
+   border-radius: 10px;
+   color: white;
+  }
+
+  green{
+        background-color: #a5d6a7;
+       padding-top: -16px;
+   padding-bottom: -16px;
+   padding: 6px;
+   border-radius: 10px;
+   color: white;
+  }
+
+  purple{
+  background-color: #B4B9FD;
+  padding-top: -16px;
+   padding-bottom: -16px;
+   padding: 6px;
+   border-radius: 10px;
+   color: white;
+  }
+
+/*FBCACA*/
 
 
 
