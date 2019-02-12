@@ -302,7 +302,7 @@ footer {
 
 .project__wrapper {
       animation: 0.8s ease-in-out 0s 1 slideInFromBottom;
-      display: flex;
+      
       justify-content: center;
       flex-wrap: wrap;
     }
@@ -451,8 +451,8 @@ footer {
 @media only screen and (max-width: 580px) {
 
       .portfolio__container {
-      max-width: 80%;
-      margin: 50px auto; }
+      max-width: 90%;
+      margin: 10px auto; }
       @media screen and (min-width: 61.875em) {
         .portfolio__container {
           max-width: 1000px;
@@ -460,7 +460,7 @@ footer {
       }
       @media screen and (min-width: 46.875em) and (max-width: 60.8125em) {
         .portfolio__container {
-          max-width: 750px;
+          max-width: 1000px;
           margin: 150px auto; } 
       }
   h1 {
@@ -468,7 +468,7 @@ footer {
   }
 
   h2 {
-    font-size: 28px;
+    font-size: 26px;
     line-height: inherit;
   }
 
@@ -520,7 +520,7 @@ footer {
   }
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 24px) {
   .section-title {
     padding-bottom: 12px;
   }
