@@ -134,6 +134,7 @@ p {
   letter-spacing: 2px;
   padding: 12px 36px;
   margin-top: 10px;
+  margin-right: 10px;
   transition: all 0.4s ease-in-out;
   text-transform: uppercase;
   width: 100px;
