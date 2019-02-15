@@ -20,6 +20,7 @@ html,body {
   position: absolute;
   bottom: 36px;
   right: 36px;
+  color: #ef9a9a;
 }
 
 .bottomleft {
@@ -303,8 +304,7 @@ footer {
 
 .project__wrapper {
       animation: 0.8s ease-in-out 0s 1 slideInFromBottom;
-      
-      justify-content: center;
+      justify-content: left;
       flex-wrap: wrap;
     }
 
@@ -314,7 +314,7 @@ footer {
     
 
     .project {
-      display: flex;
+
       height: 327px;
       width: 800px; /* if the image size messes up this used to be 747px */
       margin: 50px auto;
@@ -469,7 +469,7 @@ footer {
   }
 
   h2 {
-    font-size: 26px;
+    font-size: 24px;
     line-height: inherit;
   }
 
@@ -477,6 +477,12 @@ footer {
     font-size: 19px;
     line-height: inherit;
   }
+  .bottomright {
+  position: absolute;
+  bottom: 36px;
+  right: 36px;
+  color: #000000;
+}
 
   .a{
     position: relative;
