@@ -284,7 +284,7 @@ footer {
   background-position: 50% 1%;
   width: 100%;
   height: 100vh;
-  filter: brightness(50%);
+  
 }
 
 #home .home-thumb {
@@ -301,7 +301,7 @@ footer {
 }
 
 .middle {
-  transition: 0.75s ease;
+  transition: 1s ease;
   opacity: 0;
   position: absolute;
   top: 50%;
@@ -311,8 +311,9 @@ footer {
   text-align: center;
 }
 
-.container:hover .image {
-  opacity: 0.3;
+.container:hover .home-img {
+  transition: 0.75s ease;
+  filter: brightness(50%);
 }
 
 .container:hover .middle {
@@ -544,6 +545,15 @@ footer {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
+}
+
+#home .home-img {
+  background: url(../images/home-img.JPG) no-repeat;
+  background-size: cover;
+  background-position: 50% 1%;
+  width: 100%;
+  height: 100vh;
+  filter: brightness(50%);
 }
 
   .bottomright {
