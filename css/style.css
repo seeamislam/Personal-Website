@@ -534,6 +534,18 @@ footer {
   font-weight: 800px;
 
 }
+
+.middle {
+  transition: 1.25s ease;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
   .bottomright {
   position: absolute;
   bottom: 36px;
