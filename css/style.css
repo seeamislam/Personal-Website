@@ -469,6 +469,15 @@ footer {
    color: white;
   }
 
+  darkBlue {
+    background-color: #4fc3f7;
+    padding-top: -16px;
+   padding-bottom: -16px;
+   padding: 6px;
+   border-radius: 10px;
+   color: white;
+  }
+
   green{
         background-color: #a5d6a7;
        padding-top: -16px;
