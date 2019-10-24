@@ -90,7 +90,7 @@ h2 {
 }
 
 h3 {
-  font-size: 19px;
+  font-size: 18px;
   line-height: 32px;
   padding-bottom: 6px;
 }
@@ -279,7 +279,7 @@ footer {
 #home .col-md-6 {
   background: #ffffff;
 /* light blue color: #c3eafd; */
-  padding-right: 0;
+  padding-right: 0px;
   padding-left: 0;
 }
 
