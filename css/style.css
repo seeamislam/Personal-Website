@@ -289,7 +289,7 @@ footer {
   background-position: 50% 1%;
   width: 100%;
   height: 100vh;
-  
+  filter: brightness(50%);
 }
 
 #home .home-thumb {
@@ -307,7 +307,7 @@ footer {
 
 .middle {
   transition: 1s ease;
-  opacity: 0;
+  opacity: 1;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -321,9 +321,9 @@ footer {
   filter: brightness(50%);
 }
 
-.container:hover .middle {
+/* .container:hover .middle {
   opacity: 1;
-}
+}*/
 
 .container:hover .home-thumb {
   opacity: 1;
@@ -496,6 +496,35 @@ footer {
    color: white;
   }
 
+  /* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+.typewriter {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .1em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .01em; /* Adjust as needed */
+  animation: 
+    typing 2s steps(22, end),
+    blink-caret 0.5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 80% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
+
+
+Resources
+
 /*FBCACA*/
 
 
@@ -602,8 +631,8 @@ footer {
   #service .container,
   #education .container,
   #contact .container {
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
   }
 
   #about .col-md-3,
@@ -618,6 +647,24 @@ footer {
     position: relative;
     min-height: 80vh;
   }
+  .program {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 800px;
+}
+
+h1 {
+  font-size: 28px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+
 }
 
 @media only screen and (max-width: 24px) {
