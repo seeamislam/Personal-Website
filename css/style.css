@@ -496,7 +496,7 @@ footer {
    color: white;
   }
 
-  /* Google Fonts */
+ 
 @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
 
 .typewriter {
@@ -505,25 +505,22 @@ footer {
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .01em; /* Adjust as needed */
-animation:
-    typing 2.25s steps(25, end),
+  animation:
+    typing 3s steps(33, end),
     blink-caret 0.5s step-end infinite;
 }
 
 /* The typing effect */
 @keyframes typing {
   from { width: 0 }
-  to { width: 95% }
+  to { width: 80% }
 }
 
 /* The typewriter cursor effect */
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: orange }
-}
-
-
-Resources
+} */
 
 /*FBCACA*/
 
