@@ -506,21 +506,29 @@ footer {
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .01em; /* Adjust as needed */
   animation:
+<<<<<<< HEAD
     typing 3s steps(33, end),
+=======
+    typing 2.5s steps(28, end),
+>>>>>>> 368b8d880787be38e47df0771163b4c00ff4535a
     blink-caret 0.5s step-end infinite;
 }
 
 /* The typing effect */
 @keyframes typing {
   from { width: 0 }
-  to { width: 80% }
+  to { width: 100% }
 }
 
 /* The typewriter cursor effect */
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: orange }
+<<<<<<< HEAD
 } */
+=======
+}
+>>>>>>> 368b8d880787be38e47df0771163b4c00ff4535a
 
 /*FBCACA*/
 
