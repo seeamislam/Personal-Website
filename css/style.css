@@ -636,8 +636,8 @@ footer {
   #service .container,
   #education .container,
   #contact .container {
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-right: 1px;
+    padding-left: 1px;
   }
 
   #about .col-md-3,
@@ -655,7 +655,10 @@ footer {
   .program {
   color: #ffffff;
   font-size: 16px;
-  font-weight: 800px;
+  font-weight: 900px;
+}
+.text{
+  font-size: 36px;
 }
 
 h1 {
