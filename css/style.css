@@ -565,7 +565,7 @@ footer {
   }
 
   h3 {
-    font-size: 20px;
+    font-size: 18px;
     line-height: inherit;
   }
 
@@ -655,7 +655,7 @@ footer {
   }
   .program {
   color: #ffffff;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 900px;
 }
 .text{
@@ -667,6 +667,10 @@ h1 {
   padding-bottom: 0px;
   margin-bottom: 0px;
 }
+
+  h3 {
+    font-size: 16px;
+  }
 
 .middle {
   transition: 1.25s ease;
