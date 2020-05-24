@@ -309,7 +309,7 @@ footer {
   transition: 1s ease;
   opacity: 1;
   position: absolute;
-  top: 75%;
+  top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -332,18 +332,19 @@ footer {
 .text {
   background-color: ;
   color: #ffffff;
-  font-size: 40px;
+  font-size: 42px;
   font-weight: bold;
-
+  line-height: 40px;
 }
 
 .program {
   background-color: ;
   color: #ffffff;
   font-size: 20px;
-  font-weight: 800px;
-
+  font-weight: light;
+  padding-bottom: 10px;
 }
+
 
 
 
@@ -579,7 +580,7 @@ footer {
 .program {
   background-color: ;
   color: #ffffff;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 800px;
 
 }
@@ -621,7 +622,7 @@ footer {
 
 @media only screen and (max-width: 767px) {
   .custom-navbar .navbar-brand {
-    line-height: 18px;
+    line-height: 16px;
   }
 
   #home .home-thumb {
@@ -654,7 +655,7 @@ footer {
   }
   .program {
   color: #ffffff;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 900px;
 }
 .text{
@@ -665,6 +666,17 @@ h1 {
   font-size: 28px;
   padding-bottom: 0px;
   margin-bottom: 0px;
+}
+
+.middle {
+  transition: 1.25s ease;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 @keyframes typing {
