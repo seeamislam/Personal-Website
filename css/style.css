@@ -69,7 +69,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1,h2,h3 {
-  font-weight: 300;
+  font-weight: 300px;
 }
 
 strike {
@@ -90,7 +90,7 @@ h2 {
 }
 
 h3 {
-  font-size: 16px;
+  font-size: 17px;
   line-height: 32px;
   padding-bottom: 6px;
 }
@@ -284,7 +284,7 @@ footer {
 }
 
 #home .home-img {
-  background: url(../images/zoom2.png) no-repeat;
+  background: url(../images/plain.png) no-repeat;
   background-size: cover;
   background-position: 50% 1%;
   width: 100%;
@@ -309,7 +309,7 @@ footer {
   transition: 1s ease;
   opacity: 1;
   position: absolute;
-  top: 80%;
+  top: 77%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -629,6 +629,7 @@ footer {
     height: auto;
     padding-top: 32px;
     padding-bottom: 12px;
+
   }
 
   #home .container,
@@ -676,7 +677,7 @@ h1 {
   transition: 1.25s ease;
   opacity: 1;
   position: absolute;
-  top: 50%;
+  top: 78%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
